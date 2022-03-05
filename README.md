@@ -136,7 +136,9 @@ CALCULATION OF JOINT POINTS
 9.	        angle = 360-angle
 10.	        
 11.	    return angle 
+```
 Thanks to the module shown above, the joint points were converted to decimal numbers matrixically and the points were combined.
+```Python
 1.	cap = cv2.VideoCapture(0)
 2.	 
 3.	# Hesaplama işlemi yapılması için integer tipinde değişkenler oluşturuldu
